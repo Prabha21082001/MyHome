@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#house{
+    width: 100%;
+    height: 100vh;
+}
+#mainheading{
+    position: absolute;
+    top: 2vh;
+    left: 10vw;
+    font-size: 8vw;
+    letter-spacing: 2vw;
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.8s;
+}
+#mainheading:hover{
+    color: white;
+}
+#login{
+    background-color: rgb(212, 203, 203);
+    position: absolute;
+    top: 40vh;
+    left: 40vw;
+    height: 300px;
+    width: 300px;
+}
+#in,#pas{
+    width: 190px;
+    padding: 20px;
+    margin: 1vw;
+    border-radius: 3px;
+}
+#sub{
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: rgb(58, 58, 255);
+    color: white;
+    font-size: 15px;
+}
+#sub:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#f{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+#loc{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    letter-spacing: 2px;
+    color:red;
+}
+#village{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    letter-spacing: 3px;
+    color: deeppink;
+}

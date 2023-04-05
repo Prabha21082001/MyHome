@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#a,#b,#c,#d{
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.5s;
+}
+#a:hover,#b:hover,#c:hover,#d:hover{
+    scale: 1.2;
+}
+body{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,9,121,1) 17%, rgba(47,53,150,1) 24%, rgba(0,212,255,1) 100%);
+background-repeat: no-repeat;
+width: 100%;
+height: 250vh;
+}
+#firsttext,#secondtext{
+    color: white;
+    width: 10vw;
+    letter-spacing: 5px;
+}
+#firsttext:hover,#secondtext:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#myhome{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    left: 350px;
+    top: 1000px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+#myhome:hover{
+    scale: 1.1;
+}
+#name{
+    letter-spacing: 5px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 600px;
+    top: 1400px;
+    background-color: rgb(247, 131, 131);
+    border-radius: 5px;
+    border: none;
+}
+#name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#logout{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+#logout:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#di{
+    position: absolute;
+    left: 40px;
+}
